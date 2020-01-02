@@ -2,11 +2,14 @@
   "name": "leandrokanis-resume",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "http://github.com/leandrokanis/leandrokanis-resume",
+  "repository": "https://github.com/leandrokanis/leandrokanis-resume",
   "author": "leandrokanis",
   "license": "MIT",
   "dependencies": {
     "chalk": "^3.0.0",
     "inquirer": "^7.0.1"
+  },
+  "bin": {
+    "leandrokanis-resume": "./index.js"
   }
 }
